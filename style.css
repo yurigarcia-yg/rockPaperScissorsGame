@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+  border: solid 2px blue;
+  background-color: white;
+}
+
+.new-game.btn {
+  border: solid 2px black;
+  border-radius: 25px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.rps-img {
+  width: 200px;
+  height: auto;
+}
+
+.results {
+  color: whitesmoke;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.header {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rps-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  gap: 20px;
+}
+
+.newGame {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.divider {
+  color: blue;
+}

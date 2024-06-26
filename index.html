@@ -4,7 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="practice.js"></script>
+    <script src="./rockPaperScissors.js" async></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="data:," />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="results">
+          <span class="divider">|</span>
+          Choose Your Fighter!
+          <span class="divider">|</span>
+          Best of 5 Rounds Wins
+          <span class="divider">|</span>
+          Round: 1
+          <span class="divider">|</span>
+        </h1>
+      </div>
+      <div class="rps-icons">
+        <div class="rps-img">
+          <img
+            type="button"
+            src="./rps-colors/rock-black.svg"
+            alt=""
+            class="rock-img"
+            id="rock-img"
+          />
+        </div>
+        <div class="rps-img">
+          <img
+            type="button"
+            src="./rps-colors/paper-black.svg"
+            alt=""
+            class="paper-img"
+            id="paper-img"
+          />
+        </div>
+        <div class="rps-img">
+          <img
+            type="button"
+            src="./rps-colors/scissors-black.svg"
+            alt=""
+            class="scissors-img"
+            id="scissors-img"
+          />
+        </div>
+      </div>
+      <div class="newGame">
+        <button class="new-game btn">New Game</button>
+      </div>
+    </div>
+
+    <audio class="background-music" autoplay loop>
+      <source src="music/bim-bom-bomp.wav" type="audio/wav" />
+    </audio>
+  </body>
 </html>
